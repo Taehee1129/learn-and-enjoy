@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+/*style the body*/
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    background-image: url("/사진/main.jpg");
+}
+
+/*Header/logo Title*/
+.header{
+    padding: 50px;
+    text-align: center;
+    background-color: forestgreen;
+    color: whitesmoke;
+}
+
+/*Style the tp nav.*/
+.navbar{
+    display: flex;
+    background-color: rgb(57, 73, 29);
+    text-align: center;
+}
+
+.navbar a{
+    color: whitesmoke;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.navbar a:hover{
+    background-color: rgb(206, 236, 182);
+    color: black;
+}
+
+/*Two unequal colums that sits next to each other*/
+/*sidebar or left colmn*/
+.side{
+    flex: 25%;
+    background-color: rgb(252, 233, 147);
+    padding: 15px;
+}
+/*Defines container*/
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/*This is the main column*/
+.main{
+    flex: 75%;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.imginserted{
+    width: 100%;
+    padding: 15px;
+  
+}
+
+.footer{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(247, 221, 107);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
