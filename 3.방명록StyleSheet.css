@@ -41,7 +41,7 @@ body{
 /*Two unequal colums that sits next to each other*/
 /*sidebar or left colmn*/
 .side{
-    flex: 25%;
+    flex: 20%;
     background-color: rgb(252, 233, 147);
     padding: 15px;
 }
@@ -53,7 +53,7 @@ body{
 
 /*This is the main column*/
 .main{
-    flex: 75%;
+    flex: 80%;
     background-color: whitesmoke;
     padding: 15px;
 }
