@@ -6,21 +6,13 @@
 body{
     font-family: 'Arial Narrow Bold', sans-serif;
     margin: 5px;
-    background-image: url("/사진/main.jpg");
 }
 
-/*Header/logo Title*/
-.header{
-    padding: 50px;
-    text-align: center;
-    background-color: forestgreen;
-    color: whitesmoke;
-}
 
 /*Style the tp nav.*/
 .navbar{
     display: flex;
-    background-color: rgb(57, 73, 29);
+    background-color: rgba(29, 52, 73, 0.829);
     text-align: center;
 }
 
@@ -58,17 +50,9 @@ body{
     padding: 15px;
 }
 
-.imginserted{
-    width: 100%;
-    padding: 15px;
-  
-}
 
-.footer{
-    padding: 15px;
-    text-align: center;
-    background-color: rgb(247, 221, 107);
-}
+
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
